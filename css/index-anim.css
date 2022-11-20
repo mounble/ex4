@@ -33,20 +33,3 @@ html,body {
     border: 1px solid black;
     opacity: 0;
 }
-#door{
-    position: absolute;
-    left: -800px;
-    top: 0;
-    z-index: 2;
-    height: 100%;
-    animation: doorMove 5s 10s forwards;
-}
-@keyframes move {
-    from {
-        transform: translate(0, 0);
-    }
-
-    to {
-        transform: translate(644px, 0);
-    }
-}
