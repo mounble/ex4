@@ -53,5 +53,5 @@ setTimeout(function word2Animation() {
     }
 }, 3000)
 setTimeout(function jump(){
-    window.location.href = 'html/index.html'
+    window.location.href = 'html/index2.html'
 },10000)
