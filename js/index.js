@@ -33,7 +33,7 @@ function cloudAnimation(){
         let lf = cloudList[i].offsetLeft
         lf+=0.5
         cloudList[i].style.left = lf+'px'
-        if(cloudList[i].offsetLeft>'1290'){
+        if(cloudList[i].offsetLeft>'1200'){
             document.getElementById('cloud').removeChild(cloudList[i])
             cloudList.splice(i,1)
             setCloud()
@@ -247,7 +247,7 @@ function flowerAnimate(){
         rotateSpeed[i]+=rotateSpeed[i]
         // console.log(rotate[i])
         flower[i].style.transform = 'rotateY('+rotateSpeed[i]+'deg)'
-        if(flower[i].offsetTop>'1000'){
+        if(flower[i].offsetLeft>'1000'){
             document.getElementById('flower').removeChild(flower[i])
             flower.splice(i,1)
             setSakura()
